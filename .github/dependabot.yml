@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+  directory: /
+  schedule:
+    interval: daily
+    
+  # 更新を無視したい場合
+  # ignore:
+  #   - dependency-name: hoge*
+
+  # - package-ecosysten: npm
+  # directory: /ui
+  # schedule:
+    # interval: daily
