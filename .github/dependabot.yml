@@ -4,6 +4,7 @@ updates:
     directory: /
     schedule:
       interval: daily
+    open-pull-requests-limit: 100
     
   # 更新を無視したい場合
   # ignore:
