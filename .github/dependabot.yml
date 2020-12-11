@@ -1,7 +1,7 @@
 # dependabotの設定
 version: 2
 updates:
-  - package-ecosystem: npm
+  - aapackage-ecosystem: npm
     directory: /
     schedule:
       interval: weekly
