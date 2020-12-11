@@ -3,14 +3,7 @@ updates:
   - package-ecosystem: npm
     directory: /
     schedule:
-      interval: daily
-    open-pull-requests-limit: 100
-    
-  # 更新を無視したい場合
-  # ignore:
-  #   - dependency-name: hoge*
-
-  # - package-ecosysten: npm
-  # directory: /ui
-  # schedule:
-    # interval: daily
+      interval: weekly
+      day: monday
+      time: "09:00"
+      timezone: Asia/Tokyo
